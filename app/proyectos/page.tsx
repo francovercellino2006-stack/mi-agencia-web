@@ -65,16 +65,15 @@ export default function ProyectosPage() {
 
         {/* Projects grid */}
         <section className="px-6 pb-10 max-w-6xl mx-auto">
-          <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <AnimatePresence mode="popLayout">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <AnimatePresence mode="wait">
               {filtered.map((project) => (
                 <motion.div
                   key={project.id}
-                  layout
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.35 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.25 }}
                   className="group glass-card rounded-2xl overflow-hidden hover:border-[#3B82F6]/30 transition-all duration-500 hover:-translate-y-1"
                 >
                   {/* Image */}
@@ -115,7 +114,7 @@ export default function ProyectosPage() {
                 </motion.div>
               ))}
             </AnimatePresence>
-          </motion.div>
+          </div>
         </section>
 
         <CTA />
