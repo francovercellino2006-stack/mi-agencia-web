@@ -65,6 +65,17 @@ export default function ProyectosPage() {
 
         {/* Projects grid */}
         <section className="px-6 pb-10 max-w-6xl mx-auto">
+          {filtered.length === 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="glass-card rounded-2xl p-16 text-center col-span-3"
+            >
+              <div className="text-4xl mb-4">🚧</div>
+              <h3 className="text-xl font-bold mb-2">Próximamente</h3>
+              <p className="text-white/40 text-sm">Estoy trabajando en proyectos de esta categoría. ¡Volvé pronto!</p>
+            </motion.div>
+          )}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <AnimatePresence mode="wait">
               {filtered.map((project) => (
