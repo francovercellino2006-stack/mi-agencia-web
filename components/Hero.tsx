@@ -40,17 +40,17 @@ export default function Hero() {
         {/* Heading */}
         <FadeUp delay={0.12}>
           <h1 className="text-5xl md:text-7xl font-black leading-[1.05] tracking-tight mb-6">
-            Páginas web{" "}
-            <span className="gradient-text">premium</span>
+            Desarrollo sitios web{" "}
+            <span className="gradient-text">rápidos,</span>
             <br />
-            para marcas modernas
+            modernos y profesionales
           </h1>
         </FadeUp>
 
         {/* Subheadings */}
         <FadeUp delay={0.24}>
           <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-4 leading-relaxed">
-            Diseño, velocidad y conversión en una sola experiencia.
+            Velocidad, diseño y estrategia para marcas que quieren destacar.
           </p>
           <p className="text-base text-white/40 max-w-xl mx-auto mb-12">
             Creo sitios web modernos, rápidos y optimizados para que tu negocio venda más.
@@ -79,21 +79,6 @@ export default function Hero() {
           </div>
         </FadeUp>
 
-        {/* Stats */}
-        <FadeUp delay={0.5}>
-          <div className="mt-20 grid grid-cols-3 gap-6 max-w-lg mx-auto">
-            {[
-              { value: "50+", label: "Proyectos entregados" },
-              { value: "100%", label: "Clientes satisfechos" },
-              { value: "48hs", label: "Primer diseño listo" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-2xl md:text-3xl font-black text-white">{stat.value}</div>
-                <div className="text-xs text-white/40 mt-1 leading-tight">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </FadeUp>
       </div>
 
       {/* Scroll indicator */}
