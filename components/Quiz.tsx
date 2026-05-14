@@ -7,7 +7,7 @@ import { ArrowRight, RotateCcw } from "lucide-react";
 const questions = [
   {
     id: 1,
-    question: "¿Qué describís mejor tu situación?",
+    question: "Describí tu situación",
     options: [
       { emoji: "🆕", label: "Recién arranco", value: "nuevo" },
       { emoji: "🏪", label: "Ya tengo un negocio", value: "negocio" },
