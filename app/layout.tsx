@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Franco Dev — Páginas Web Premium",
+  title: "Vercellino Dev",
   description:
     "Diseño y desarrollo de páginas web modernas, rápidas y optimizadas para vender más. Landing pages, tiendas online y catálogos digitales.",
   keywords: "páginas web, diseño web, tienda online, landing page, desarrollo web, Argentina",
   openGraph: {
-    title: "Franco Dev — Páginas Web Premium",
+    title: "Vercellino Dev",
     description: "Diseño y desarrollo de páginas web modernas para negocios que quieren vender más.",
     type: "website",
   },
