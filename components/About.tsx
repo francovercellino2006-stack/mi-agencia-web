@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MapPin, Code2, Rocket, Heart } from "lucide-react";
+import Image from "next/image";
 
 const highlights = [
   { icon: MapPin, text: "Viedma, Río Negro, Argentina" },
@@ -28,11 +29,14 @@ export default function About() {
               {/* Glow behind photo */}
               <div className="absolute inset-0 rounded-2xl bg-[#3B82F6]/20 blur-2xl scale-110" />
               {/* Photo container */}
-              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-white/10 glass-card">
-                {/* Placeholder con iniciales — reemplazá por tu foto */}
-                <div className="w-full h-full bg-gradient-to-br from-[#3B82F6]/20 to-[#1E40AF]/20 flex items-center justify-center">
-                  <span className="text-7xl font-black gradient-text">FC</span>
-                </div>
+              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-white/10">
+                <Image
+                  src="/franco.jpg"
+                  alt="Franco Casas Vercellino"
+                  fill
+                  className="object-cover object-top"
+                  priority
+                />
               </div>
               {/* Badge flotante */}
               <div className="absolute -bottom-4 -right-4 glass-card rounded-xl px-4 py-2 border border-white/10">
