@@ -77,7 +77,7 @@ export default function ServiciosPage() {
 
                   {/* CTA */}
                   <a
-                    href={`https://wa.me/5491100000000?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20${encodeURIComponent(service.title)}`}
+                    href={`https://wa.me/542920528440?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20${encodeURIComponent(service.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 flex items-center gap-2 text-sm font-semibold text-[#3B82F6] hover:text-[#60A5FA] transition-colors"

@@ -1,5 +1,15 @@
 import Link from "next/link";
-import { Camera, Mail, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
+
+function InstagramIcon({ size = 16 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -15,7 +25,7 @@ export default function Footer() {
                 F
               </div>
               <span className="font-bold text-lg">
-                Franco<span className="text-[#3B82F6]">Dev</span>
+                Franco <span className="text-[#3B82F6]">Dev</span>
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
@@ -49,7 +59,7 @@ export default function Footer() {
             <h4 className="font-semibold text-sm mb-4 text-white/80">Contacto</h4>
             <div className="flex flex-col gap-3">
               <a
-                href="https://wa.me/5491100000000"
+                href="https://wa.me/542920528440"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
@@ -58,20 +68,22 @@ export default function Footer() {
                 WhatsApp
               </a>
               <a
-                href="https://instagram.com/francodev"
+                href="https://instagram.com/francoocasasvercellino"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
               >
-                <Camera size={16} className="text-[#E1306C] group-hover:scale-110 transition-transform" />
-                @francodev
+                <span className="text-[#E1306C] group-hover:scale-110 transition-transform inline-flex">
+                  <InstagramIcon size={16} />
+                </span>
+                @francoocasasvercellino
               </a>
               <a
-                href="mailto:franco@miagencia.com"
+                href="mailto:francovercellino2006@gmail.com"
                 className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
               >
                 <Mail size={16} className="text-[#3B82F6] group-hover:scale-110 transition-transform" />
-                franco@miagencia.com
+                francovercellino2006@gmail.com
               </a>
             </div>
           </div>
@@ -79,7 +91,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-white/30 text-xs">
-          <span>© {year} FrancoDev. Todos los derechos reservados.</span>
+          <span>© {year} Franco Dev. Todos los derechos reservados.</span>
           <span>Hecho con ❤️ en Argentina</span>
         </div>
       </div>

@@ -36,7 +36,7 @@ export default function Navbar() {
             F
           </div>
           <span className="font-bold text-lg tracking-tight">
-            Franco<span className="text-[#3B82F6]">Dev</span>
+            Franco <span className="text-[#3B82F6]">Dev</span>
           </span>
         </Link>
 
@@ -52,7 +52,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://wa.me/5491100000000?text=Hola%2C%20quiero%20una%20p%C3%A1gina%20web"
+            href="https://wa.me/542920528440?text=Hola%2C%20quiero%20una%20p%C3%A1gina%20web"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-semibold bg-[#3B82F6] hover:bg-[#2563EB] text-white px-5 py-2 rounded-lg transition-all duration-200 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]"
@@ -92,7 +92,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="https://wa.me/5491100000000?text=Hola%2C%20quiero%20una%20p%C3%A1gina%20web"
+              href="https://wa.me/542920528440?text=Hola%2C%20quiero%20una%20p%C3%A1gina%20web"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 text-center font-semibold bg-[#3B82F6] text-white px-5 py-3 rounded-lg"

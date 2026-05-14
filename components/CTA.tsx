@@ -39,7 +39,7 @@ export default function CTA() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/5491100000000?text=Hola%2C%20quiero%20hablar%20sobre%20mi%20web"
+                href="https://wa.me/542920528440?text=Hola%2C%20quiero%20hablar%20sobre%20mi%20web"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 bg-[#3B82F6] hover:bg-[#2563EB] text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] text-base"
@@ -48,7 +48,7 @@ export default function CTA() {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="mailto:franco@miagencia.com"
+                href="mailto:francovercellino2006@gmail.com"
                 className="glass-card hover:border-white/20 text-white/80 hover:text-white font-medium px-8 py-4 rounded-xl transition-all duration-300 text-base"
               >
                 Enviar un email

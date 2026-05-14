@@ -61,7 +61,7 @@ export default function Hero() {
         <FadeUp delay={0.36}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/5491100000000?text=Hola%2C%20quiero%20solicitar%20mi%20p%C3%A1gina%20web"
+              href="https://wa.me/542920528440?text=Hola%2C%20quiero%20solicitar%20mi%20p%C3%A1gina%20web"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 bg-[#3B82F6] hover:bg-[#2563EB] text-white font-semibold px-7 py-4 rounded-xl transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] text-base"
