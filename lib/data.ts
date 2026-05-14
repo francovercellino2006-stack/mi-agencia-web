@@ -5,7 +5,7 @@ export const projects = [
     description: "Tienda online premium para marca de perfumería árabe. Catálogo completo, experiencia de compra inmersiva y diseño de lujo orientado a la conversión.",
     image: "/oud-del-sur.jpg",
     tags: ["Next.js", "TypeScript", "Tailwind", "Sanity"],
-    url: "https://github.com/francovercellino2006-stack/oud-del-sur",
+    url: "https://ouddelsurperfumes.com/",
     category: "Tienda Online",
   },
 ];
