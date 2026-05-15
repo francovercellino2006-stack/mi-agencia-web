@@ -17,8 +17,8 @@ export default function CTA() {
           {/* Background gradient */}
           <div className="absolute inset-0 bg-gradient-to-br from-[#3B82F6]/20 via-[#1E40AF]/10 to-[#D4AF37]/10" />
           <div className="absolute inset-0 grid-bg opacity-30" />
-          <div className="absolute top-0 right-0 w-72 h-72 bg-[#3B82F6]/20 rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 left-0 w-56 h-56 bg-[#D4AF37]/10 rounded-full blur-[80px]" />
+          <div className="hidden md:block absolute top-0 right-0 w-72 h-72 bg-[#3B82F6]/20 rounded-full blur-[100px]" />
+          <div className="hidden md:block absolute bottom-0 left-0 w-56 h-56 bg-[#D4AF37]/10 rounded-full blur-[80px]" />
 
           {/* Border */}
           <div className="absolute inset-0 rounded-3xl border border-white/10" />

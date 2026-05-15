@@ -21,7 +21,7 @@ export default function ServiciosPage() {
       <main className="pt-28 pb-0">
         {/* Hero */}
         <section className="relative py-20 px-6 text-center overflow-hidden">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#3B82F6]/8 rounded-full blur-[120px] pointer-events-none" />
+          <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#3B82F6]/8 rounded-full blur-[120px] pointer-events-none" />
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
