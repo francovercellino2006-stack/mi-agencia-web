@@ -16,13 +16,13 @@ export default function HowIWork() {
           className="text-center mb-20"
         >
           <span className="text-[#3B82F6] text-sm font-semibold tracking-widest uppercase">
-            Proceso
+            Cómo funciona
           </span>
           <h2 className="text-4xl md:text-5xl font-black mt-3 mb-4">
-            Cómo <span className="gradient-text">trabajo</span>
+            Simple y <span className="gradient-text">sin vueltas</span>
           </h2>
           <p className="text-white/50 max-w-xl mx-auto">
-            Un proceso claro, rápido y sin sorpresas. De la idea a la web en tiempo récord.
+            Sin reuniones eternas ni tecnicismos. Me contás qué necesitás y yo me encargo del resto.
           </p>
         </motion.div>
 

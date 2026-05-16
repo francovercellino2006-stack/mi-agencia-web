@@ -50,10 +50,10 @@ export default function Hero() {
         {/* Subheadings */}
         <FadeUp delay={0.24}>
           <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-4 leading-relaxed">
-            Velocidad, diseño y estrategia para marcas que quieren destacar.
+            Páginas web que se ven increíbles y hacen que más clientes te llamen.
           </p>
           <p className="text-base text-white/40 max-w-xl mx-auto mb-12">
-            Creo sitios web modernos, rápidos y optimizados para que tu negocio venda más.
+            Te armo una página web para que tu negocio se vea profesional, aparezca en Google y los clientes te encuentren fácil.
           </p>
         </FadeUp>
 

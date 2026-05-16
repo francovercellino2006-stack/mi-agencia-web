@@ -29,12 +29,12 @@ export default function CTA() {
               ¿Listo para crecer?
             </span>
             <h2 className="text-4xl md:text-5xl font-black mt-4 mb-5 leading-tight">
-              Tu negocio necesita una web
+              ¿Querés que más clientes
               <br />
-              <span className="gradient-text">a otro nivel</span>
+              <span className="gradient-text">te encuentren?</span>
             </h2>
             <p className="text-white/60 max-w-xl mx-auto mb-10 text-lg leading-relaxed">
-              Hablemos hoy. En menos de 48hs tenés el diseño de tu futura web lista para revisar.
+              Escribime hoy por WhatsApp y en menos de 48hs te muestro cómo podría quedar tu página.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

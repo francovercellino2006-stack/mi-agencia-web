@@ -6,33 +6,33 @@ import { Zap, Smartphone, Search, Gauge, MessageCircle, Sparkles } from "lucide-
 const benefits = [
   {
     icon: Sparkles,
-    title: "Diseño premium",
-    description: "Cada web es única y diseñada para impresionar. Nada de templates genéricos.",
+    title: "Diseño único para vos",
+    description: "Cada página es creada desde cero para tu negocio. Nada de plantillas genéricas que se ven iguales a todos.",
   },
   {
     icon: Smartphone,
-    title: "Responsive perfecto",
-    description: "Funciona impecable en iPhone, Android y cualquier pantalla.",
+    title: "Se ve bien en el celular",
+    description: "El 80% de los clientes navega desde el celu. Tu página va a funcionar perfecto en cualquier pantalla.",
   },
   {
     icon: Search,
-    title: "Optimización SEO",
-    description: "Aparecé en Google cuando tus clientes buscan lo que ofrecés.",
+    title: "Aparecés en Google",
+    description: "Cuando alguien busca lo que vos ofrecés, tu negocio aparece. Más visitas, más clientes.",
   },
   {
     icon: Gauge,
-    title: "Velocidad extrema",
-    description: "Carga en menos de 1 segundo. Tu web nunca pierde visitas por lentitud.",
+    title: "Abre rápido",
+    description: "Si una página tarda en cargar, el cliente se va. La tuya abre en segundos, siempre.",
   },
   {
     icon: MessageCircle,
-    title: "Integración WhatsApp",
-    description: "Botón flotante y CTAs directos para que los clientes te contacten fácil.",
+    title: "Tus clientes te escriben directo",
+    description: "Botón de WhatsApp visible en toda la página para que te contacten con un solo clic.",
   },
   {
     icon: Zap,
-    title: "Experiencia moderna",
-    description: "Animaciones fluidas y microinteracciones que sorprenden a tus visitas.",
+    title: "Diseño que sorprende",
+    description: "Movimientos suaves y detalles visuales que hacen que tu página se vea diferente a todas las demás.",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function Benefits() {
           className="text-center mb-16"
         >
           <span className="text-[#3B82F6] text-sm font-semibold tracking-widest uppercase">
-            Por qué elegirnos
+            Por qué elegirme
           </span>
           <h2 className="text-4xl md:text-5xl font-black mt-3 mb-4">
             Todo lo que tu web{" "}
