@@ -15,27 +15,27 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/5 bg-[#080808] px-6 py-14">
+    <footer className="border-t border-black/5 bg-[#F3F4F6] px-6 py-14">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-[#3B82F6] flex items-center justify-center text-sm font-black">
+              <div className="w-8 h-8 rounded-lg bg-[#3B82F6] flex items-center justify-center text-sm font-black text-white">
                 F
               </div>
-              <span className="font-bold text-lg">
+              <span className="font-bold text-lg text-[#0F0F0F]">
                 Franco <span className="text-[#3B82F6]">Dev</span>
               </span>
             </Link>
-            <p className="text-white/40 text-sm leading-relaxed max-w-xs">
-              Diseño y desarrollo de páginas web premium para negocios que quieren vender más y verse modernos.
+            <p className="text-[#9CA3AF] text-sm leading-relaxed max-w-xs">
+              Diseño y desarrollo de páginas web para negocios que quieren vender más y verse modernos.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="font-semibold text-sm mb-4 text-white/80">Navegación</h4>
+            <h4 className="font-semibold text-sm mb-4 text-[#4B5563]">Navegación</h4>
             <ul className="flex flex-col gap-2">
               {[
                 { href: "/", label: "Inicio" },
@@ -45,7 +45,7 @@ export default function Footer() {
                 <li key={l.href}>
                   <Link
                     href={l.href}
-                    className="text-white/40 hover:text-white text-sm transition-colors"
+                    className="text-[#9CA3AF] hover:text-[#0F0F0F] text-sm transition-colors"
                   >
                     {l.label}
                   </Link>
@@ -56,13 +56,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold text-sm mb-4 text-white/80">Contacto</h4>
+            <h4 className="font-semibold text-sm mb-4 text-[#4B5563]">Contacto</h4>
             <div className="flex flex-col gap-3">
               <a
                 href="https://wa.me/542920528440"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
+                className="flex items-center gap-2.5 text-[#9CA3AF] hover:text-[#0F0F0F] text-sm transition-colors group"
               >
                 <MessageCircle size={16} className="text-[#25D366] group-hover:scale-110 transition-transform" />
                 WhatsApp
@@ -71,7 +71,7 @@ export default function Footer() {
                 href="https://instagram.com/francoocasasvercellino"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
+                className="flex items-center gap-2.5 text-[#9CA3AF] hover:text-[#0F0F0F] text-sm transition-colors group"
               >
                 <span className="text-[#E1306C] group-hover:scale-110 transition-transform inline-flex">
                   <InstagramIcon size={16} />
@@ -80,7 +80,7 @@ export default function Footer() {
               </a>
               <a
                 href="mailto:francovercellino2006@gmail.com"
-                className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
+                className="flex items-center gap-2.5 text-[#9CA3AF] hover:text-[#0F0F0F] text-sm transition-colors group"
               >
                 <Mail size={16} className="text-[#3B82F6] group-hover:scale-110 transition-transform" />
                 francovercellino2006@gmail.com
@@ -90,7 +90,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-white/30 text-xs">
+        <div className="border-t border-black/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-[#9CA3AF] text-xs">
           <span>© {year} Franco Dev. Todos los derechos reservados.</span>
           <span>Hecho con ❤️ en Argentina</span>
         </div>

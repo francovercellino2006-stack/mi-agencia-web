@@ -38,7 +38,7 @@ export default function ProyectosPage() {
             <h1 className="text-5xl md:text-6xl font-black mt-4 mb-5">
               Mis <span className="gradient-text">proyectos</span>
             </h1>
-            <p className="text-white/50 text-lg max-w-xl mx-auto">
+            <p className="text-[#6B7280] text-lg max-w-xl mx-auto">
               Webs reales para negocios reales. Cada proyecto diseñado para convertir visitas en clientes.
             </p>
           </motion.div>
@@ -54,7 +54,7 @@ export default function ProyectosPage() {
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   active === cat
                     ? "bg-[#3B82F6] text-white shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-                    : "glass-card text-white/60 hover:text-white hover:border-white/15"
+                    : "glass-card text-[#6B7280] hover:text-[#0F0F0F] hover:border-black/15"
                 }`}
               >
                 {cat}
@@ -73,7 +73,7 @@ export default function ProyectosPage() {
             >
               <div className="text-4xl mb-4">🚧</div>
               <h3 className="text-xl font-bold mb-2">Próximamente</h3>
-              <p className="text-white/40 text-sm">Estoy trabajando en proyectos de esta categoría. ¡Volvé pronto!</p>
+              <p className="text-[#9CA3AF] text-sm">Estoy trabajando en proyectos de esta categoría. ¡Volvé pronto!</p>
             </motion.div>
           )}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -104,12 +104,12 @@ export default function ProyectosPage() {
                   {/* Content */}
                   <div className="p-6">
                     <h3 className="font-bold text-lg mb-2">{project.title}</h3>
-                    <p className="text-white/50 text-sm leading-relaxed mb-4">{project.description}</p>
+                    <p className="text-[#6B7280] text-sm leading-relaxed mb-4">{project.description}</p>
 
                     {/* Tags */}
                     <div className="flex flex-wrap gap-2 mb-5">
                       {project.tags.map((tag) => (
-                        <span key={tag} className="text-xs text-white/40 bg-white/5 rounded-md px-2 py-1">
+                        <span key={tag} className="text-xs text-[#9CA3AF] bg-black/5 rounded-md px-2 py-1">
                           {tag}
                         </span>
                       ))}

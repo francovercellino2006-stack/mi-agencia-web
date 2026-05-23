@@ -49,10 +49,10 @@ export default function Hero() {
 
         {/* Subheadings */}
         <FadeUp delay={0.24}>
-          <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-4 leading-relaxed">
+          <p className="text-lg md:text-xl text-[#6B7280] max-w-2xl mx-auto mb-4 leading-relaxed">
             Páginas web que se ven increíbles y hacen que más clientes te llamen.
           </p>
-          <p className="text-base text-white/40 max-w-xl mx-auto mb-12">
+          <p className="text-base text-[#9CA3AF] max-w-xl mx-auto mb-12">
             Te armo una página web para que tu negocio se vea profesional, aparezca en Google y los clientes te encuentren fácil.
           </p>
         </FadeUp>
@@ -71,7 +71,7 @@ export default function Hero() {
             </a>
             <Link
               href="/proyectos"
-              className="group flex items-center gap-2 glass-card hover:border-white/20 text-white/80 hover:text-white font-medium px-7 py-4 rounded-xl transition-all duration-300 text-base"
+              className="group flex items-center gap-2 glass-card hover:border-black/20 text-[#6B7280] hover:text-[#0F0F0F] font-medium px-7 py-4 rounded-xl transition-all duration-300 text-base"
             >
               <Play size={16} className="text-[#3B82F6]" />
               Ver proyectos
@@ -88,8 +88,8 @@ export default function Hero() {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-xs text-white/30 tracking-widest uppercase">Scroll</span>
-        <div className="w-px h-8 bg-gradient-to-b from-white/30 to-transparent" />
+        <span className="text-xs text-[#9CA3AF] tracking-widest uppercase">Scroll</span>
+        <div className="w-px h-8 bg-gradient-to-b from-black/20 to-transparent" />
       </motion.div>
     </section>
   );

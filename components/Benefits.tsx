@@ -55,7 +55,7 @@ export default function Benefits() {
             Todo lo que tu web{" "}
             <span className="gradient-text">necesita</span>
           </h2>
-          <p className="text-white/50 max-w-xl mx-auto">
+          <p className="text-[#6B7280] max-w-xl mx-auto">
             Cada proyecto incluye lo que hace falta para destacar, posicionarse y convertir visitas en clientes.
           </p>
         </motion.div>
@@ -69,13 +69,13 @@ export default function Benefits() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08, duration: 0.5 }}
-              className="glass-card rounded-2xl p-6 group hover:border-[#3B82F6]/30 transition-all duration-300 hover:bg-white/[0.06]"
+              className="glass-card rounded-2xl p-6 group hover:border-[#3B82F6]/30 transition-all duration-300 hover:shadow-md"
             >
               <div className="w-11 h-11 rounded-xl bg-[#3B82F6]/10 flex items-center justify-center mb-4 group-hover:bg-[#3B82F6]/20 transition-colors">
                 <b.icon size={20} className="text-[#3B82F6]" />
               </div>
               <h3 className="font-bold text-lg mb-2">{b.title}</h3>
-              <p className="text-white/50 text-sm leading-relaxed">{b.description}</p>
+              <p className="text-[#6B7280] text-sm leading-relaxed">{b.description}</p>
             </motion.div>
           ))}
         </div>

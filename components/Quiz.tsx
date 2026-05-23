@@ -121,7 +121,7 @@ export default function Quiz() {
           <h2 className="text-4xl md:text-5xl font-black mt-3 mb-4">
             Encontrá tu <span className="gradient-text">página ideal</span>
           </h2>
-          <p className="text-white/50 max-w-xl mx-auto">
+          <p className="text-[#6B7280] max-w-xl mx-auto">
             3 preguntas simples y te decimos qué tipo de web necesita tu negocio.
           </p>
         </motion.div>
@@ -141,7 +141,7 @@ export default function Quiz() {
               >
                 <div className="text-6xl mb-6">🤔</div>
                 <h3 className="text-2xl font-bold mb-3">¿Qué página necesita tu negocio?</h3>
-                <p className="text-white/50 mb-8 max-w-md mx-auto">
+                <p className="text-[#6B7280] mb-8 max-w-md mx-auto">
                   Respondé 3 preguntas sencillas y te recomendamos la mejor opción para vos.
                 </p>
                 <button
@@ -169,13 +169,13 @@ export default function Quiz() {
                     <div
                       key={i}
                       className={`h-1.5 flex-1 rounded-full transition-all duration-300 ${
-                        i < step ? "bg-[#3B82F6]" : "bg-white/10"
+                        i < step ? "bg-[#3B82F6]" : "bg-black/10"
                       }`}
                     />
                   ))}
                 </div>
 
-                <p className="text-xs text-white/40 mb-3 uppercase tracking-widest">
+                <p className="text-xs text-[#9CA3AF] mb-3 uppercase tracking-widest">
                   Pregunta {step} de 3
                 </p>
                 <h3 className="text-xl md:text-2xl font-bold mb-8">
@@ -189,8 +189,8 @@ export default function Quiz() {
                       onClick={() => handleSelect(opt.value)}
                       className={`flex items-center gap-3 p-4 rounded-xl border text-left transition-all duration-200 ${
                         selected === opt.value
-                          ? "border-[#3B82F6] bg-[#3B82F6]/20 scale-95"
-                          : "border-white/10 bg-white/5 hover:border-[#3B82F6]/50 hover:bg-white/10"
+                          ? "border-[#3B82F6] bg-[#3B82F6]/10 scale-95"
+                          : "border-black/10 bg-black/[0.03] hover:border-[#3B82F6]/50 hover:bg-[#3B82F6]/5"
                       }`}
                     >
                       <span className="text-2xl">{opt.emoji}</span>
@@ -216,7 +216,7 @@ export default function Quiz() {
                   Tu página ideal es
                 </p>
                 <h3 className="text-3xl md:text-4xl font-black mb-4">{result.title}</h3>
-                <p className="text-white/60 max-w-md mx-auto mb-8 leading-relaxed">
+                <p className="text-[#6B7280] max-w-md mx-auto mb-8 leading-relaxed">
                   {result.description}
                 </p>
 
@@ -232,7 +232,7 @@ export default function Quiz() {
                   </a>
                   <button
                     onClick={reset}
-                    className="flex items-center gap-2 glass-card hover:border-white/20 text-white/60 hover:text-white px-5 py-3.5 rounded-xl transition-all duration-300 text-sm"
+                    className="flex items-center gap-2 glass-card hover:border-black/20 text-[#6B7280] hover:text-[#0F0F0F] px-5 py-3.5 rounded-xl transition-all duration-300 text-sm"
                   >
                     <RotateCcw size={14} />
                     Volver a hacer el quiz

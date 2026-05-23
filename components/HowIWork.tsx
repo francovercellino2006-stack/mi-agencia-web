@@ -5,7 +5,7 @@ import { steps } from "@/lib/data";
 
 export default function HowIWork() {
   return (
-    <section className="py-28 px-6 bg-[#080808]">
+    <section className="py-28 px-6 bg-[#F3F4F6]">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <motion.div
@@ -21,7 +21,7 @@ export default function HowIWork() {
           <h2 className="text-4xl md:text-5xl font-black mt-3 mb-4">
             Simple y <span className="gradient-text">sin vueltas</span>
           </h2>
-          <p className="text-white/50 max-w-xl mx-auto">
+          <p className="text-[#6B7280] max-w-xl mx-auto">
             Sin reuniones eternas ni tecnicismos. Me contás qué necesitás y yo me encargo del resto.
           </p>
         </motion.div>
@@ -47,14 +47,14 @@ export default function HowIWork() {
                 <div className={`flex-1 ${i % 2 === 0 ? "md:text-right" : "md:text-left"} text-left`}>
                   <div className="glass-card rounded-2xl p-7 hover:border-[#3B82F6]/30 transition-all duration-300">
                     <h3 className="font-bold text-xl mb-2">{step.title}</h3>
-                    <p className="text-white/50 text-sm leading-relaxed">{step.description}</p>
+                    <p className="text-[#6B7280] text-sm leading-relaxed">{step.description}</p>
                   </div>
                 </div>
 
                 {/* Number bubble */}
                 <div className="flex-none relative z-10">
                   <div className="w-14 h-14 rounded-full bg-[#3B82F6] flex items-center justify-center blue-glow">
-                    <span className="font-black text-sm">{step.number}</span>
+                    <span className="font-black text-sm text-white">{step.number}</span>
                   </div>
                 </div>
 

@@ -25,7 +25,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0B0B0B]/90 backdrop-blur-md border-b border-white/5 py-3"
+          ? "bg-white/90 backdrop-blur-md border-b border-black/5 py-3"
           : "bg-transparent py-5"
       }`}
     >
@@ -46,7 +46,7 @@ export default function Navbar() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm text-white/70 hover:text-white transition-colors duration-200"
+              className="text-sm text-[#6B7280] hover:text-[#0F0F0F] transition-colors duration-200 font-medium"
             >
               {l.label}
             </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-white/80 hover:text-white"
+          className="md:hidden text-[#6B7280] hover:text-[#0F0F0F] transition-colors"
           onClick={() => setOpen(!open)}
           aria-label="Menú"
         >
@@ -79,14 +79,14 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden bg-[#111111] border-t border-white/5 px-6 py-6 flex flex-col gap-4"
+            className="md:hidden bg-white border-t border-black/5 px-6 py-6 flex flex-col gap-4 shadow-sm"
           >
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="text-white/70 hover:text-white text-base transition-colors"
+                className="text-[#6B7280] hover:text-[#0F0F0F] text-base transition-colors font-medium"
               >
                 {l.label}
               </Link>

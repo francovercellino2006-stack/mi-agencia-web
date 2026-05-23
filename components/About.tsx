@@ -13,7 +13,7 @@ const highlights = [
 
 export default function About() {
   return (
-    <section className="py-28 px-6 bg-[#080808]">
+    <section className="py-28 px-6 bg-[#F3F4F6]">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
 
@@ -59,10 +59,10 @@ export default function About() {
               Hola, soy{" "}
               <span className="gradient-text">Franco</span>
             </h2>
-            <p className="text-white/60 leading-relaxed mb-3">
-              Soy <strong className="text-white">Franco Casas Vercellino</strong>, desarrollador web de Viedma, Río Negro. Me especializo en crear páginas web modernas, rápidas y diseñadas para que los negocios vendan más.
+            <p className="text-[#6B7280] leading-relaxed mb-3">
+              Soy <strong className="text-[#0F0F0F]">Franco Casas Vercellino</strong>, desarrollador web de Viedma, Río Negro. Me especializo en crear páginas web modernas, rápidas y diseñadas para que los negocios vendan más.
             </p>
-            <p className="text-white/50 text-sm leading-relaxed mb-8">
+            <p className="text-[#6B7280] text-sm leading-relaxed mb-8">
               Trabajo con las últimas tecnologías del mercado para entregar sitios que no solo se ven increíbles, sino que también convierten visitas en clientes reales. Cada proyecto es único y pensado estratégicamente para el negocio de cada cliente.
             </p>
 
@@ -80,7 +80,7 @@ export default function About() {
                   <div className="w-8 h-8 rounded-lg bg-[#3B82F6]/10 flex items-center justify-center flex-none">
                     <h.icon size={14} className="text-[#3B82F6]" />
                   </div>
-                  <span className="text-white/60 text-sm">{h.text}</span>
+                  <span className="text-[#6B7280] text-sm">{h.text}</span>
                 </motion.div>
               ))}
             </div>

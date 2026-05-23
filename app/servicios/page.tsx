@@ -34,7 +34,7 @@ export default function ServiciosPage() {
             <h1 className="text-5xl md:text-6xl font-black mt-4 mb-5">
               Mis <span className="gradient-text">servicios</span>
             </h1>
-            <p className="text-white/50 text-lg max-w-2xl mx-auto">
+            <p className="text-[#6B7280] text-lg max-w-2xl mx-auto">
               Desde una landing page que convierte hasta una tienda online completa. Todo lo que necesita tu negocio para estar en el nivel que merece.
             </p>
           </motion.div>
@@ -52,7 +52,7 @@ export default function ServiciosPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.08, duration: 0.5 }}
-                  className="glass-card rounded-2xl p-7 flex flex-col gap-5 group hover:border-[#3B82F6]/30 transition-all duration-300 hover:bg-white/[0.06]"
+                  className="glass-card rounded-2xl p-7 flex flex-col gap-5 group hover:border-[#3B82F6]/30 transition-all duration-300 hover:shadow-md"
                 >
                   {/* Icon */}
                   <div className="w-12 h-12 rounded-xl bg-[#3B82F6]/10 flex items-center justify-center group-hover:bg-[#3B82F6]/20 transition-colors">
@@ -62,13 +62,13 @@ export default function ServiciosPage() {
                   {/* Title & description */}
                   <div>
                     <h3 className="font-bold text-xl mb-2">{service.title}</h3>
-                    <p className="text-white/50 text-sm leading-relaxed">{service.description}</p>
+                    <p className="text-[#6B7280] text-sm leading-relaxed">{service.description}</p>
                   </div>
 
                   {/* Benefits list */}
                   <ul className="flex flex-col gap-2 flex-1">
                     {service.benefits.map((b) => (
-                      <li key={b} className="flex items-center gap-2 text-sm text-white/60">
+                      <li key={b} className="flex items-center gap-2 text-sm text-[#6B7280]">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6] flex-none" />
                         {b}
                       </li>

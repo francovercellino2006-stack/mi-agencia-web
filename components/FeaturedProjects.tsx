@@ -66,14 +66,14 @@ export default function FeaturedProjects() {
               {/* Content */}
               <div className="p-6">
                 <h3 className="font-bold text-lg mb-2">{project.title}</h3>
-                <p className="text-white/50 text-sm leading-relaxed mb-4">{project.description}</p>
+                <p className="text-[#6B7280] text-sm leading-relaxed mb-4">{project.description}</p>
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mb-5">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs text-white/40 bg-white/5 rounded-md px-2 py-1"
+                      className="text-xs text-[#9CA3AF] bg-black/5 rounded-md px-2 py-1"
                     >
                       {tag}
                     </span>
